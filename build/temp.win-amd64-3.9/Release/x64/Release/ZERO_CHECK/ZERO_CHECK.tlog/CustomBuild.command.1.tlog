@@ -1,0 +1,10 @@
+^C:\USERS\BILLYME\DESKTOP\DLIB-19.23.0\BUILD\TEMP.WIN-AMD64-3.9\RELEASE\CMAKEFILES\365705CCD871AF194ABE7C757BD4CF1F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Billyme/Desktop/dlib-19.23.0/tools/python -BC:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release/dlib_python_bindings.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

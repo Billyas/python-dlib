@@ -1,0 +1,29 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: C:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_637c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30140 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_637c7.dir\Debug\\" /Fd"cmTC_637c7.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 sgemm_，函数 main 中引用了该符号 [C:\Users\Billyme\Desktop\dlib-19.23.0\build\temp.win-amd64-3.9\Release\CMakeFiles\CMakeTmp\cmTC_637c7.vcxproj]
+C:\Users\Billyme\Desktop\dlib-19.23.0\build\temp.win-amd64-3.9\Release\CMakeFiles\CMakeTmp\Debug\cmTC_637c7.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\Billyme\Desktop\dlib-19.23.0\build\temp.win-amd64-3.9\Release\CMakeFiles\CMakeTmp\cmTC_637c7.vcxproj]
+
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_84006.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30140 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84006.dir\Debug\\" /Fd"cmTC_84006.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Billyme\Desktop\dlib-19.23.0\build\temp.win-amd64-3.9\Release\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\Billyme\Desktop\dlib-19.23.0\build\temp.win-amd64-3.9\Release\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Users\Billyme\Desktop\dlib-19.23.0\build\temp.win-amd64-3.9\Release\CMakeFiles\CMakeTmp\cmTC_84006.vcxproj]
+
+
+

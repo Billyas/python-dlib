@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindGIF.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/CMakeLists.txt
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/check_if_avx_instructions_executable_on_host.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/check_if_neon_available.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/find_blas.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/find_libjpeg.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/find_libpng.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/release_build_by_default
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/set_compiler_specific_options.cmake
+C:/Users/Billyme/Desktop/dlib-19.23.0/dlib/cmake_utils/use_cpp_11.cmake

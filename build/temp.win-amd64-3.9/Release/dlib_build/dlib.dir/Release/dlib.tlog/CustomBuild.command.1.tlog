@@ -1,0 +1,10 @@
+^C:\USERS\BILLYME\DESKTOP\DLIB-19.23.0\DLIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Billyme/Desktop/dlib-19.23.0/tools/python -BC:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release --check-stamp-file C:/Users/Billyme/Desktop/dlib-19.23.0/build/temp.win-amd64-3.9/Release/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
